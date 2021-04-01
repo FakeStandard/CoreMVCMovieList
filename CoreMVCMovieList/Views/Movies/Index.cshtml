@@ -1,0 +1,74 @@
+﻿@*@model IEnumerable<CoreMVCMovieList.Models.Movie>*@
+
+@model CoreMVCMovieList.ViewModels.MovieGenerViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List</h1>
+
+<h4>Movie</h4>
+<hr />
+<p>
+    <a asp-action="Create" class="btn btn-secondary">新增</a>
+</p>
+
+<form asp-controller="Movies" asp-action="Index" method="get">
+    <p>
+        <div class="form-inline form-row">
+            <label class="col-form-label">類型:</label>
+            <select asp-for="MovieGenre" asp-items="Model.Genres" class="custom-select">
+                <option value="">All</option>
+            </select>
+
+            <label class="col-form-label">電影名稱:</label>
+            <input type="text" asp-for="SearchString" class="form-control" />
+            <input type="submit" value="搜尋" class="btn btn-info" />
+        </div>
+    </p>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Movies)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">編輯</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success btn-sm">詳細資料</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">刪除</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
