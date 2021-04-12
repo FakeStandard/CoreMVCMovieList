@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+ï»¿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +26,7 @@ namespace CoreMVCMovieList
         {
             services.AddControllersWithViews();
 
-            // DI ª`¤J
+            // DI æ³¨å…¥
             services.AddDbContext<MvcMovieContext>(options => 
                     options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
         }

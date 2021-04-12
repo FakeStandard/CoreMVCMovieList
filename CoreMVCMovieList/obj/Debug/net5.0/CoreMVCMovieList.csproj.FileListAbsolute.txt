@@ -9,7 +9,6 @@ D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\bin\Debug\net5.0\ref\
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\bin\Debug\net5.0\CoreMVCMovieList.pdb
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\bin\Debug\net5.0\CoreMVCMovieList.Views.dll
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\bin\Debug\net5.0\CoreMVCMovieList.Views.pdb
-D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\CoreMVCMovieList.csprojAssemblyReference.cache
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\CoreMVCMovieList.GeneratedMSBuildEditorConfig.editorconfig
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\CoreMVCMovieList.AssemblyInfoInputs.cache
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\CoreMVCMovieList.AssemblyInfo.cs
