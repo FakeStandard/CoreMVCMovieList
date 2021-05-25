@@ -170,3 +170,4 @@ D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\Razo
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
 D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+D:\2.Project\SideProject\CoreMVCMovieList\CoreMVCMovieList\obj\Debug\net5.0\CoreMVCMovieList.csprojAssemblyReference.cache
